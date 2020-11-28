@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 295px;
+    height: 460px;
+    border: 1px solid lightgray;
+    padding: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.price{
+    display: block;
+    font-size: 45px;
+    color: lightseagreen;
+    padding-bottom: 25px;
+}
+
+.ru{
+    font-size: 15px;
+}
+.a{
+    display: block;
+}
+
+.button {
+    width: 193px;
+    height: 50px;
+    margin-top: 35px;
+    border: 1px solid lightgray;
+    background-color: white;
+    text-transform: uppercase;
+    color: rgb(92, 89, 89);
+    font-weight: bold;
+}
