@@ -1,8 +1,16 @@
 * {
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'MuseoCyrl-900';
+    src: url('MuseoCyrl-900.woff') format('woff'),
+         url('MuseoCyrl-900.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+    
 body{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #202020;
 }
 /* Шапка сайта */
@@ -55,6 +63,7 @@ body{
     margin-bottom: 22px;
 }
 .title {
+    font-family:'MuseoCyrl-900', sans-serif ;
     font-size: 54px;
     font-weight: 700;
     margin-top: 0;
