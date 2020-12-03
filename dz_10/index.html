@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link  rel = "shortcut icon"  href = "/favicon.ico"  type = "image / x-icon" > 
-<link  rel = "icon"  href = "/favicon.ico"  type = "image / x-icon" >
+<link  rel = "icon"  href = "favicon.ico"  type = "image / x-icon" >
 </head>
 <body>
     <!--  Шапка сайта  -->
     <header class="header">
         <div class="header-container">
-            <span class="logo">Книжный</span> <!-- /.logo -->
+            <a href="index.html" class="logo">Книжный</a> <!-- /.logo -->
             <nav class="nav">
                 <a href="#" class="nav-link">Бестселлеры</a>
                 <a href="#" class="nav-link">Подборка</a>
@@ -31,7 +31,11 @@
     <!-- Главная секция -->
     <section class="hero">
         <div class="hero-container">
-            <img class="hero-img" src="img/book.png" alt="Книга Путь фрилансера">
+            <div class="image-block">
+                <img class="hero-img" src="img/book.png" alt="Книга Путь фрилансера">
+                <span class="sale-label">Скидка 30%</span>
+            </div>
+            <!-- /.image-block -->
             <div class="hero-text">
                 <span class="author">Артем Исламов</span>
                 <h1 class="title">Путь фрилансера</h1>
@@ -45,6 +49,7 @@
                 <!-- /.info -->
                 <div class="price">
                     <span class="pricetag">490 ₽</span>
+                    <button class="favorit"> <img src="img/love.png" alt="Избранное" > </button>
                     <a href="#" class="favorites">Добавить в избранное</a>
                 </div>
                 <div class="buttons">
@@ -107,6 +112,58 @@
         <!-- /.reader-container -->
     </section>
     <!-- Подвал сайта -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="requisites">
+                <h3 class="footer-title">Реквизиты</h3>
+                <!-- /.footer-title -->
+                <ul class="footer-list">
+                    <li class="list-item">ИП Исламов Артем Данисович</li>
+                    <li class="list-item">ИНН 026408036102</li>
+                    <li class="list-item">ОГРНИП 318028000152678</li>
+                </ul>
+                <!-- /.footer-list -->
+            </div>
+            <!-- /.requisites -->
+            <div class="information">
+                <h3 class="footer-title">Информация</h3>
+                <!-- /.footer-title -->
+                <ul class="footer-list">
+                    <li class="list-item">
+                        <a href="#" class="footer-link"> Политика конфиденциальности</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="footer-link">Правила обработки данных</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="footer-link">Доровор-оферта</a>
+                    </li>
+                </ul>
+                <!-- /.footer-list -->
+            </div>
+            <!-- /.information -->
+            <div class="contacts">
+                <h3 class="footer-title">Контакты</h3>
+                <!-- /.footer-title -->
+                <ul class="footer-list">
+                    <li class="list-item">
+                        <a href="mailto:freelance-book@ya.ru" class="footer-link">freelance-book@ya.ru</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://vk.me/aislam23" class="footer-link">vk.me/aislam23</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://t.me/aislam23" class="footer-link">t.me/aislam23</a>
+                    </li>
+                </ul>
+                <!-- /.footer-list -->
+            </div>
+            <!-- /.contacts -->
+        </div>
+        <!-- /.footer-container -->
+    </footer>
+    <a href="#" class="to-top">
+        <img src="img/return.png" alt="Наверх" class="return">
+    </a>
 </body>
 </html>
